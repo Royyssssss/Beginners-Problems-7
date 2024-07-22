@@ -16,3 +16,12 @@ for i in test_str:
     if i == 'e':
         count = count + 1
 print(count)
+
+while True:
+    A = input("enter a sentence: ") 
+    if "a" in A:
+        print("True")
+    else:
+        print("no")    
+    break
+   
