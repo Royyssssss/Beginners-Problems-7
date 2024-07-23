@@ -20,8 +20,9 @@ print(count)
 while True:
     A = input("enter a sentence: ") 
     if "a" in A:
-        print("True")
+        print(A.count('a'))
     else:
         print("no")    
     break
-   
+
+
