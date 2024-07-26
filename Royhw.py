@@ -25,4 +25,11 @@ while True:
         print("no")    
     break
 
+list1 = input()
+list2 = input()
+same_number = set(list1).intersection(list2)
+if same_number:
+    print("same number found:", ", ".join(same_number))
+else:
+    print("No common numbers found.")
 
