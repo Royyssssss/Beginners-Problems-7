@@ -31,5 +31,5 @@ same_number = set(list1).intersection(list2)
 if same_number:
     print("same number found:", ", ".join(same_number))
 else:
-    print("No common numbers found.")
+    print("meh, there is no same numbers on those two lists.")
 
