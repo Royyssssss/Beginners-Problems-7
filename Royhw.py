@@ -7,6 +7,7 @@ for i in range(7):
     else:
         print('NO')
         seen.add(num)
+# for that code, you have to press enter for 7times to get Yes or No answer.
 
 
 test_str = str(input())
