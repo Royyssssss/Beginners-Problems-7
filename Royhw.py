@@ -34,3 +34,29 @@ if same_number:
 else:
     print("meh, there is no same numbers on those two lists.")
 
+
+
+
+
+
+num1 = int(input("How many languages can you speak?: "))
+lan1 = set()
+for _ in range(num1):
+    language = input("What languages can you speak in?: ").strip().lower()
+    lan1.add(language)
+num2 = int(input("How many languages can you speak?: "))
+lan2 = set()
+for _ in range(num2):
+    language = input("What languages can you speak in?: ").strip().lower()
+    lan2.add(language)
+num3 = int(input("How many languages can you speak?: "))
+lan3 = set()
+for _ in range(num3):
+    language = input("What languages can you speak in?: ").strip().lower()
+    lan3.add(language)
+common_languages = lan1 & lan2 & lan3
+if common_languages:
+    print("Common languages:", common_languages)
+else:
+    print("There are no languages that can be spoken by all people.")
+
