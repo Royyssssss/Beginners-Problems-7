@@ -14,7 +14,7 @@ test_str = str(input())
 count = 0
  
 for i in test_str:
-    if i == 'e':
+    if i == 'a':
         count = count + 1
 print(count)
 
